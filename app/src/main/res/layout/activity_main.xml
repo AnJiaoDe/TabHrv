@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cy.tabrv.CYTabLayout
+
+        android:id="@+id/cytab"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:width_indicator="30dp"
+        app:height_indicator="3dp"
+        app:cornerRadius_indicator="5"
+        android:background="@color/colorAccent">
+
+        <!--<HorizontalScrollView-->
+            <!--android:id="@+id/hsv"-->
+            <!--android:scrollbars="none"-->
+            <!--android:overScrollMode="never"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="44dp" />-->
+
+        <!--<View-->
+            <!--android:id="@+id/view_indicator"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="4dp"-->
+            <!--android:background="#ffff00" />-->
+    </com.cy.tabrv.CYTabLayout>
+
+</RelativeLayout>
